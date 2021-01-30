@@ -16,5 +16,24 @@ namespace ManaDigitalV1
         {
             InitializeComponent();
         }
+
+        private void Registerbutton_Click(object sender, EventArgs e)
+        {
+            Slidepanel1.Top = Registerbutton.Top;
+            Slidepanel1.Height = Registerbutton.Height;
+
+        }
+
+        private void Searchbutton_Click(object sender, EventArgs e)
+        {
+            Slidepanel1.Top = Searchbutton.Top;
+            Slidepanel1.Height = Searchbutton.Height;
+        }
+
+        private void Groupsbutton_Click(object sender, EventArgs e)
+        {
+            Slidepanel1.Top = Groupsbutton.Top;
+            Slidepanel1.Height = Groupsbutton.Height;
+        }
     }
 }
