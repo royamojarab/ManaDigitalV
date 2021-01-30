@@ -49,6 +49,7 @@ namespace ManaDigitalV1.UserControls
             this.Cancelbutton3 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.rightLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.AgenumericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -250,6 +251,7 @@ namespace ManaDigitalV1.UserControls
             this.ChooseCVbutton2.TabIndex = 17;
             this.ChooseCVbutton2.Text = "انتخاب فایل";
             this.ChooseCVbutton2.UseVisualStyleBackColor = true;
+            this.ChooseCVbutton2.Click += new System.EventHandler(this.ChooseCVbutton2_Click);
             // 
             // SaveCVbutton2
             // 
@@ -262,6 +264,7 @@ namespace ManaDigitalV1.UserControls
             this.SaveCVbutton2.TabIndex = 18;
             this.SaveCVbutton2.Text = "ذخیره";
             this.SaveCVbutton2.UseVisualStyleBackColor = true;
+            this.SaveCVbutton2.Click += new System.EventHandler(this.SaveCVbutton2_Click);
             // 
             // Submitbutton2
             // 
@@ -274,6 +277,7 @@ namespace ManaDigitalV1.UserControls
             this.Submitbutton2.Size = new System.Drawing.Size(92, 32);
             this.Submitbutton2.TabIndex = 19;
             this.Submitbutton2.UseVisualStyleBackColor = true;
+            this.Submitbutton2.Click += new System.EventHandler(this.Submitbutton2_Click);
             // 
             // Cancelbutton3
             // 
@@ -302,6 +306,10 @@ namespace ManaDigitalV1.UserControls
             this.rightLayoutPanel1.Size = new System.Drawing.Size(75, 737);
             this.rightLayoutPanel1.TabIndex = 22;
             this.rightLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // RegisterUserControl
             // 
@@ -359,5 +367,6 @@ namespace ManaDigitalV1.UserControls
         private System.Windows.Forms.Button Cancelbutton3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.FlowLayoutPanel rightLayoutPanel1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

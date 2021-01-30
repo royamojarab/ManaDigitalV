@@ -32,12 +32,15 @@ namespace ManaDigitalV1.UserControls
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GroupListUserControl));
             this.ExitGroupListbutton1 = new System.Windows.Forms.Button();
             this.FlashLogopanel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.GroupMemberslistBox2 = new System.Windows.Forms.ListBox();
             this.GroupslistBox1 = new System.Windows.Forms.ListBox();
             this.GroupMemberslabel2 = new System.Windows.Forms.Label();
             this.Groupslabel1 = new System.Windows.Forms.Label();
             this.rightLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.FlashLogopanel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,10 +60,20 @@ namespace ManaDigitalV1.UserControls
             // 
             this.FlashLogopanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FlashLogopanel2.BackgroundImage")));
             this.FlashLogopanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.FlashLogopanel2.Controls.Add(this.button1);
             this.FlashLogopanel2.Location = new System.Drawing.Point(301, 155);
             this.FlashLogopanel2.Name = "FlashLogopanel2";
             this.FlashLogopanel2.Size = new System.Drawing.Size(262, 292);
             this.FlashLogopanel2.TabIndex = 19;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // GroupMemberslistBox2
             // 
@@ -89,6 +102,7 @@ namespace ManaDigitalV1.UserControls
             this.GroupslistBox1.Size = new System.Drawing.Size(196, 292);
             this.GroupslistBox1.TabIndex = 17;
             this.GroupslistBox1.ValueMember = "Id";
+            this.GroupslistBox1.Click += new System.EventHandler(this.GroupslistBox1_Click);
             // 
             // GroupMemberslabel2
             // 
@@ -127,11 +141,24 @@ namespace ManaDigitalV1.UserControls
             this.panel1.Size = new System.Drawing.Size(914, 50);
             this.panel1.TabIndex = 58;
             // 
+            // button2
+            // 
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.Color.Silver;
+            this.button2.Location = new System.Drawing.Point(3, 680);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(79, 29);
+            this.button2.TabIndex = 60;
+            this.button2.Text = "بازگشت";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // GroupListUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.rightLayoutPanel1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.FlashLogopanel2);
@@ -141,6 +168,8 @@ namespace ManaDigitalV1.UserControls
             this.Controls.Add(this.Groupslabel1);
             this.Name = "GroupListUserControl";
             this.Size = new System.Drawing.Size(914, 740);
+            this.Load += new System.EventHandler(this.GroupListUserControl_Load);
+            this.FlashLogopanel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -157,5 +186,7 @@ namespace ManaDigitalV1.UserControls
         private System.Windows.Forms.Label Groupslabel1;
         private System.Windows.Forms.FlowLayoutPanel rightLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

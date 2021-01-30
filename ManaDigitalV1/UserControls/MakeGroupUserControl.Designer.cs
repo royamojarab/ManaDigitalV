@@ -29,6 +29,7 @@ namespace ManaDigitalV1.UserControls
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MakeGroupUserControl));
             this.GroupListbutton1 = new System.Windows.Forms.Button();
             this.MemberslistBox1 = new System.Windows.Forms.ListBox();
             this.NewGroupMemberlistBox1 = new System.Windows.Forms.ListBox();
@@ -38,6 +39,7 @@ namespace ManaDigitalV1.UserControls
             this.NewGroupTextlabel1 = new System.Windows.Forms.Label();
             this.rightLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.SubmitGroupbutton2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // GroupListbutton1
@@ -52,6 +54,7 @@ namespace ManaDigitalV1.UserControls
             this.GroupListbutton1.TabIndex = 39;
             this.GroupListbutton1.Text = "لیست گروه ها";
             this.GroupListbutton1.UseVisualStyleBackColor = true;
+            this.GroupListbutton1.Click += new System.EventHandler(this.GroupListbutton1_Click);
             // 
             // MemberslistBox1
             // 
@@ -67,6 +70,7 @@ namespace ManaDigitalV1.UserControls
             this.MemberslistBox1.Size = new System.Drawing.Size(196, 322);
             this.MemberslistBox1.TabIndex = 38;
             this.MemberslistBox1.ValueMember = "Id";
+            this.MemberslistBox1.SelectedIndexChanged += new System.EventHandler(this.MemberslistBox1_SelectedIndexChanged);
             // 
             // NewGroupMemberlistBox1
             // 
@@ -82,6 +86,8 @@ namespace ManaDigitalV1.UserControls
             this.NewGroupMemberlistBox1.Size = new System.Drawing.Size(196, 226);
             this.NewGroupMemberlistBox1.TabIndex = 37;
             this.NewGroupMemberlistBox1.ValueMember = "Id";
+            this.NewGroupMemberlistBox1.Click += new System.EventHandler(this.NewGroupMemberlistBox1_Click);
+            this.NewGroupMemberlistBox1.SelectedIndexChanged += new System.EventHandler(this.NewGroupMemberlistBox1_SelectedIndexChanged);
             // 
             // Memberslabel1
             // 
@@ -152,11 +158,25 @@ namespace ManaDigitalV1.UserControls
             this.panel1.Size = new System.Drawing.Size(914, 50);
             this.panel1.TabIndex = 56;
             // 
+            // SubmitGroupbutton2
+            // 
+            this.SubmitGroupbutton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SubmitGroupbutton2.BackgroundImage")));
+            this.SubmitGroupbutton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SubmitGroupbutton2.FlatAppearance.BorderSize = 0;
+            this.SubmitGroupbutton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SubmitGroupbutton2.Location = new System.Drawing.Point(603, 641);
+            this.SubmitGroupbutton2.Name = "SubmitGroupbutton2";
+            this.SubmitGroupbutton2.Size = new System.Drawing.Size(84, 31);
+            this.SubmitGroupbutton2.TabIndex = 58;
+            this.SubmitGroupbutton2.UseVisualStyleBackColor = true;
+            this.SubmitGroupbutton2.Click += new System.EventHandler(this.SubmitGroupbutton2_Click);
+            // 
             // MakeGroupUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.Controls.Add(this.SubmitGroupbutton2);
             this.Controls.Add(this.rightLayoutPanel1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.GroupListbutton1);
@@ -168,6 +188,7 @@ namespace ManaDigitalV1.UserControls
             this.Controls.Add(this.NewGroupTextlabel1);
             this.Name = "MakeGroupUserControl";
             this.Size = new System.Drawing.Size(914, 740);
+            this.Load += new System.EventHandler(this.MakeGroupUserControl_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -183,5 +204,6 @@ namespace ManaDigitalV1.UserControls
         private System.Windows.Forms.Label NewGroupTextlabel1;
         private System.Windows.Forms.FlowLayoutPanel rightLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button SubmitGroupbutton2;
     }
 }

@@ -47,3 +47,11 @@ C:\Users\Roya\Desktop\ManaDigitalV\ManaDigitalV1\bin\Debug\de\DevExpress.Pdf.v20
 C:\Users\Roya\Desktop\ManaDigitalV\ManaDigitalV1\bin\Debug\es\DevExpress.Pdf.v20.2.Core.resources.dll
 C:\Users\Roya\Desktop\ManaDigitalV\ManaDigitalV1\bin\Debug\ja\DevExpress.Pdf.v20.2.Core.resources.dll
 C:\Users\Roya\Desktop\ManaDigitalV\ManaDigitalV1\bin\Debug\ru\DevExpress.Pdf.v20.2.Core.resources.dll
+C:\Users\Roya\Desktop\ManaDigitalV\ManaDigitalV1\bin\Debug\BusinessEntity.dll
+C:\Users\Roya\Desktop\ManaDigitalV\ManaDigitalV1\bin\Debug\dataAccess.dll
+C:\Users\Roya\Desktop\ManaDigitalV\ManaDigitalV1\bin\Debug\dataLogic.dll
+C:\Users\Roya\Desktop\ManaDigitalV\ManaDigitalV1\bin\Debug\BusinessEntity.pdb
+C:\Users\Roya\Desktop\ManaDigitalV\ManaDigitalV1\bin\Debug\dataAccess.pdb
+C:\Users\Roya\Desktop\ManaDigitalV\ManaDigitalV1\bin\Debug\dataAccess.dll.config
+C:\Users\Roya\Desktop\ManaDigitalV\ManaDigitalV1\bin\Debug\dataLogic.pdb
+C:\Users\Roya\Desktop\ManaDigitalV\ManaDigitalV1\obj\Debug\ManaDigitalV1.csprojAssemblyReference.cache

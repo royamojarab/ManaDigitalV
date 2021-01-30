@@ -89,6 +89,7 @@ namespace ManaDigitalV1.UserControls
             this.SearchbunifuMaterialTextbox1.Size = new System.Drawing.Size(196, 33);
             this.SearchbunifuMaterialTextbox1.TabIndex = 13;
             this.SearchbunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SearchbunifuMaterialTextbox1.OnValueChanged += new System.EventHandler(this.SearchbunifuMaterialTextbox1_OnValueChanged);
             // 
             // SearchlistBox1
             // 
@@ -105,6 +106,7 @@ namespace ManaDigitalV1.UserControls
             this.SearchlistBox1.Size = new System.Drawing.Size(197, 226);
             this.SearchlistBox1.TabIndex = 14;
             this.SearchlistBox1.ValueMember = "Id";
+            this.SearchlistBox1.SelectedIndexChanged += new System.EventHandler(this.SearchlistBox1_SelectedIndexChanged);
             // 
             // CVbutton1
             // 
@@ -119,6 +121,7 @@ namespace ManaDigitalV1.UserControls
             this.CVbutton1.TabIndex = 49;
             this.CVbutton1.Text = "مشاهده رزومه";
             this.CVbutton1.UseVisualStyleBackColor = true;
+            this.CVbutton1.Click += new System.EventHandler(this.CVbutton1_Click);
             // 
             // SaveEditbutton2
             // 
@@ -132,6 +135,7 @@ namespace ManaDigitalV1.UserControls
             this.SaveEditbutton2.Size = new System.Drawing.Size(84, 31);
             this.SaveEditbutton2.TabIndex = 48;
             this.SaveEditbutton2.UseVisualStyleBackColor = true;
+            this.SaveEditbutton2.Click += new System.EventHandler(this.SaveEditbutton2_Click);
             // 
             // parametercomboBox1
             // 
@@ -327,6 +331,7 @@ namespace ManaDigitalV1.UserControls
             this.ChooseCVbutton2.TabIndex = 51;
             this.ChooseCVbutton2.Text = "انتخاب فایل";
             this.ChooseCVbutton2.UseVisualStyleBackColor = true;
+            this.ChooseCVbutton2.Click += new System.EventHandler(this.ChooseCVbutton2_Click);
             // 
             // label1
             // 
