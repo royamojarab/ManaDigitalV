@@ -29,10 +29,6 @@ namespace ManaDigitalV1.UserControls
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MakeGroupUserControl));
-            this.RightPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.Toppanel1 = new System.Windows.Forms.Panel();
-            this.SubmitGroupbutton2 = new System.Windows.Forms.Button();
             this.GroupListbutton1 = new System.Windows.Forms.Button();
             this.MemberslistBox1 = new System.Windows.Forms.ListBox();
             this.NewGroupMemberlistBox1 = new System.Windows.Forms.ListBox();
@@ -40,33 +36,9 @@ namespace ManaDigitalV1.UserControls
             this.GroupNamebunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.GroupNamelabel2 = new System.Windows.Forms.Label();
             this.NewGroupTextlabel1 = new System.Windows.Forms.Label();
+            this.rightLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
-            // 
-            // RightPanel1
-            // 
-            this.RightPanel1.Location = new System.Drawing.Point(877, 70);
-            this.RightPanel1.Name = "RightPanel1";
-            this.RightPanel1.Size = new System.Drawing.Size(70, 560);
-            this.RightPanel1.TabIndex = 5;
-            // 
-            // Toppanel1
-            // 
-            this.Toppanel1.Location = new System.Drawing.Point(0, 0);
-            this.Toppanel1.Name = "Toppanel1";
-            this.Toppanel1.Size = new System.Drawing.Size(947, 70);
-            this.Toppanel1.TabIndex = 4;
-            // 
-            // SubmitGroupbutton2
-            // 
-            this.SubmitGroupbutton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SubmitGroupbutton2.BackgroundImage")));
-            this.SubmitGroupbutton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.SubmitGroupbutton2.FlatAppearance.BorderSize = 0;
-            this.SubmitGroupbutton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SubmitGroupbutton2.Location = new System.Drawing.Point(737, 567);
-            this.SubmitGroupbutton2.Name = "SubmitGroupbutton2";
-            this.SubmitGroupbutton2.Size = new System.Drawing.Size(84, 31);
-            this.SubmitGroupbutton2.TabIndex = 40;
-            this.SubmitGroupbutton2.UseVisualStyleBackColor = true;
             // 
             // GroupListbutton1
             // 
@@ -74,7 +46,7 @@ namespace ManaDigitalV1.UserControls
             this.GroupListbutton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.GroupListbutton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupListbutton1.ForeColor = System.Drawing.Color.Silver;
-            this.GroupListbutton1.Location = new System.Drawing.Point(35, 585);
+            this.GroupListbutton1.Location = new System.Drawing.Point(35, 567);
             this.GroupListbutton1.Name = "GroupListbutton1";
             this.GroupListbutton1.Size = new System.Drawing.Size(115, 32);
             this.GroupListbutton1.TabIndex = 39;
@@ -89,7 +61,7 @@ namespace ManaDigitalV1.UserControls
             this.MemberslistBox1.ForeColor = System.Drawing.Color.Silver;
             this.MemberslistBox1.FormattingEnabled = true;
             this.MemberslistBox1.ItemHeight = 16;
-            this.MemberslistBox1.Location = new System.Drawing.Point(201, 178);
+            this.MemberslistBox1.Location = new System.Drawing.Point(223, 150);
             this.MemberslistBox1.Name = "MemberslistBox1";
             this.MemberslistBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.MemberslistBox1.Size = new System.Drawing.Size(196, 322);
@@ -104,7 +76,7 @@ namespace ManaDigitalV1.UserControls
             this.NewGroupMemberlistBox1.ForeColor = System.Drawing.Color.Silver;
             this.NewGroupMemberlistBox1.FormattingEnabled = true;
             this.NewGroupMemberlistBox1.ItemHeight = 16;
-            this.NewGroupMemberlistBox1.Location = new System.Drawing.Point(677, 274);
+            this.NewGroupMemberlistBox1.Location = new System.Drawing.Point(547, 246);
             this.NewGroupMemberlistBox1.Name = "NewGroupMemberlistBox1";
             this.NewGroupMemberlistBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.NewGroupMemberlistBox1.Size = new System.Drawing.Size(196, 226);
@@ -115,7 +87,7 @@ namespace ManaDigitalV1.UserControls
             // 
             this.Memberslabel1.AutoSize = true;
             this.Memberslabel1.ForeColor = System.Drawing.Color.Silver;
-            this.Memberslabel1.Location = new System.Drawing.Point(321, 133);
+            this.Memberslabel1.Location = new System.Drawing.Point(343, 105);
             this.Memberslabel1.Name = "Memberslabel1";
             this.Memberslabel1.Size = new System.Drawing.Size(44, 17);
             this.Memberslabel1.TabIndex = 36;
@@ -136,7 +108,7 @@ namespace ManaDigitalV1.UserControls
             this.GroupNamebunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
             this.GroupNamebunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.Silver;
             this.GroupNamebunifuMaterialTextbox1.LineThickness = 3;
-            this.GroupNamebunifuMaterialTextbox1.Location = new System.Drawing.Point(677, 154);
+            this.GroupNamebunifuMaterialTextbox1.Location = new System.Drawing.Point(547, 126);
             this.GroupNamebunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(4);
             this.GroupNamebunifuMaterialTextbox1.MaxLength = 32767;
             this.GroupNamebunifuMaterialTextbox1.Name = "GroupNamebunifuMaterialTextbox1";
@@ -149,7 +121,7 @@ namespace ManaDigitalV1.UserControls
             // 
             this.GroupNamelabel2.AutoSize = true;
             this.GroupNamelabel2.ForeColor = System.Drawing.Color.Silver;
-            this.GroupNamelabel2.Location = new System.Drawing.Point(809, 133);
+            this.GroupNamelabel2.Location = new System.Drawing.Point(679, 105);
             this.GroupNamelabel2.Name = "GroupNamelabel2";
             this.GroupNamelabel2.Size = new System.Drawing.Size(46, 17);
             this.GroupNamelabel2.TabIndex = 33;
@@ -160,18 +132,33 @@ namespace ManaDigitalV1.UserControls
             this.NewGroupTextlabel1.AutoSize = true;
             this.NewGroupTextlabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NewGroupTextlabel1.ForeColor = System.Drawing.Color.Silver;
-            this.NewGroupTextlabel1.Location = new System.Drawing.Point(757, 83);
+            this.NewGroupTextlabel1.Location = new System.Drawing.Point(627, 55);
             this.NewGroupTextlabel1.Name = "NewGroupTextlabel1";
             this.NewGroupTextlabel1.Size = new System.Drawing.Size(103, 20);
             this.NewGroupTextlabel1.TabIndex = 34;
             this.NewGroupTextlabel1.Text = ":ایجاد گروه جدید";
+            // 
+            // rightLayoutPanel1
+            // 
+            this.rightLayoutPanel1.Location = new System.Drawing.Point(836, 3);
+            this.rightLayoutPanel1.Name = "rightLayoutPanel1";
+            this.rightLayoutPanel1.Size = new System.Drawing.Size(75, 737);
+            this.rightLayoutPanel1.TabIndex = 57;
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(914, 50);
+            this.panel1.TabIndex = 56;
             // 
             // MakeGroupUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.Controls.Add(this.SubmitGroupbutton2);
+            this.Controls.Add(this.rightLayoutPanel1);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.GroupListbutton1);
             this.Controls.Add(this.MemberslistBox1);
             this.Controls.Add(this.NewGroupMemberlistBox1);
@@ -179,20 +166,14 @@ namespace ManaDigitalV1.UserControls
             this.Controls.Add(this.GroupNamebunifuMaterialTextbox1);
             this.Controls.Add(this.GroupNamelabel2);
             this.Controls.Add(this.NewGroupTextlabel1);
-            this.Controls.Add(this.RightPanel1);
-            this.Controls.Add(this.Toppanel1);
             this.Name = "MakeGroupUserControl";
-            this.Size = new System.Drawing.Size(947, 630);
+            this.Size = new System.Drawing.Size(914, 740);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.FlowLayoutPanel RightPanel1;
-        private System.Windows.Forms.Panel Toppanel1;
-        private System.Windows.Forms.Button SubmitGroupbutton2;
         private System.Windows.Forms.Button GroupListbutton1;
         private System.Windows.Forms.ListBox MemberslistBox1;
         private System.Windows.Forms.ListBox NewGroupMemberlistBox1;
@@ -200,5 +181,7 @@ namespace ManaDigitalV1.UserControls
         private Bunifu.Framework.UI.BunifuMaterialTextbox GroupNamebunifuMaterialTextbox1;
         private System.Windows.Forms.Label GroupNamelabel2;
         private System.Windows.Forms.Label NewGroupTextlabel1;
+        private System.Windows.Forms.FlowLayoutPanel rightLayoutPanel1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

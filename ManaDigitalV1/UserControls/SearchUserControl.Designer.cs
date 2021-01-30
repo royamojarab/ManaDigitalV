@@ -30,8 +30,6 @@ namespace ManaDigitalV1.UserControls
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SearchUserControl));
-            this.RightPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.Toppanel1 = new System.Windows.Forms.Panel();
             this.Searchlabel1 = new System.Windows.Forms.Label();
             this.SearchbunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.SearchlistBox1 = new System.Windows.Forms.ListBox();
@@ -52,29 +50,17 @@ namespace ManaDigitalV1.UserControls
             this.ChooseCVbutton2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.AgenumericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.rightLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.AgenumericUpDown1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // RightPanel1
-            // 
-            this.RightPanel1.Location = new System.Drawing.Point(877, 70);
-            this.RightPanel1.Name = "RightPanel1";
-            this.RightPanel1.Size = new System.Drawing.Size(70, 560);
-            this.RightPanel1.TabIndex = 3;
-            // 
-            // Toppanel1
-            // 
-            this.Toppanel1.Location = new System.Drawing.Point(0, 0);
-            this.Toppanel1.Name = "Toppanel1";
-            this.Toppanel1.Size = new System.Drawing.Size(947, 70);
-            this.Toppanel1.TabIndex = 2;
             // 
             // Searchlabel1
             // 
             this.Searchlabel1.AutoSize = true;
             this.Searchlabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Searchlabel1.ForeColor = System.Drawing.Color.Silver;
-            this.Searchlabel1.Location = new System.Drawing.Point(827, 80);
+            this.Searchlabel1.Location = new System.Drawing.Point(775, 54);
             this.Searchlabel1.Name = "Searchlabel1";
             this.Searchlabel1.Size = new System.Drawing.Size(47, 20);
             this.Searchlabel1.TabIndex = 12;
@@ -95,7 +81,7 @@ namespace ManaDigitalV1.UserControls
             this.SearchbunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
             this.SearchbunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.Silver;
             this.SearchbunifuMaterialTextbox1.LineThickness = 3;
-            this.SearchbunifuMaterialTextbox1.Location = new System.Drawing.Point(655, 104);
+            this.SearchbunifuMaterialTextbox1.Location = new System.Drawing.Point(603, 79);
             this.SearchbunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(5);
             this.SearchbunifuMaterialTextbox1.MaxLength = 32767;
             this.SearchbunifuMaterialTextbox1.Name = "SearchbunifuMaterialTextbox1";
@@ -112,7 +98,7 @@ namespace ManaDigitalV1.UserControls
             this.SearchlistBox1.ForeColor = System.Drawing.Color.Silver;
             this.SearchlistBox1.FormattingEnabled = true;
             this.SearchlistBox1.ItemHeight = 16;
-            this.SearchlistBox1.Location = new System.Drawing.Point(655, 235);
+            this.SearchlistBox1.Location = new System.Drawing.Point(602, 161);
             this.SearchlistBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SearchlistBox1.Name = "SearchlistBox1";
             this.SearchlistBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -126,7 +112,7 @@ namespace ManaDigitalV1.UserControls
             this.CVbutton1.FlatAppearance.BorderSize = 0;
             this.CVbutton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CVbutton1.ForeColor = System.Drawing.Color.Silver;
-            this.CVbutton1.Location = new System.Drawing.Point(133, 550);
+            this.CVbutton1.Location = new System.Drawing.Point(130, 519);
             this.CVbutton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CVbutton1.Name = "CVbutton1";
             this.CVbutton1.Size = new System.Drawing.Size(98, 38);
@@ -140,7 +126,7 @@ namespace ManaDigitalV1.UserControls
             this.SaveEditbutton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.SaveEditbutton2.FlatAppearance.BorderSize = 0;
             this.SaveEditbutton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SaveEditbutton2.Location = new System.Drawing.Point(23, 581);
+            this.SaveEditbutton2.Location = new System.Drawing.Point(21, 618);
             this.SaveEditbutton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SaveEditbutton2.Name = "SaveEditbutton2";
             this.SaveEditbutton2.Size = new System.Drawing.Size(84, 31);
@@ -152,7 +138,7 @@ namespace ManaDigitalV1.UserControls
             this.parametercomboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.parametercomboBox1.ForeColor = System.Drawing.Color.Silver;
             this.parametercomboBox1.FormattingEnabled = true;
-            this.parametercomboBox1.Location = new System.Drawing.Point(300, 478);
+            this.parametercomboBox1.Location = new System.Drawing.Point(297, 447);
             this.parametercomboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.parametercomboBox1.Name = "parametercomboBox1";
             this.parametercomboBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -174,7 +160,7 @@ namespace ManaDigitalV1.UserControls
             this.AddressbunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
             this.AddressbunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.Silver;
             this.AddressbunifuMaterialTextbox1.LineThickness = 3;
-            this.AddressbunifuMaterialTextbox1.Location = new System.Drawing.Point(216, 314);
+            this.AddressbunifuMaterialTextbox1.Location = new System.Drawing.Point(213, 283);
             this.AddressbunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(5);
             this.AddressbunifuMaterialTextbox1.MaxLength = 32767;
             this.AddressbunifuMaterialTextbox1.Name = "AddressbunifuMaterialTextbox1";
@@ -198,7 +184,7 @@ namespace ManaDigitalV1.UserControls
             this.PhonebunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
             this.PhonebunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.Silver;
             this.PhonebunifuMaterialTextbox1.LineThickness = 3;
-            this.PhonebunifuMaterialTextbox1.Location = new System.Drawing.Point(216, 244);
+            this.PhonebunifuMaterialTextbox1.Location = new System.Drawing.Point(213, 213);
             this.PhonebunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(5);
             this.PhonebunifuMaterialTextbox1.MaxLength = 32767;
             this.PhonebunifuMaterialTextbox1.Name = "PhonebunifuMaterialTextbox1";
@@ -222,7 +208,7 @@ namespace ManaDigitalV1.UserControls
             this.RelationbunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
             this.RelationbunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.Silver;
             this.RelationbunifuMaterialTextbox1.LineThickness = 3;
-            this.RelationbunifuMaterialTextbox1.Location = new System.Drawing.Point(216, 174);
+            this.RelationbunifuMaterialTextbox1.Location = new System.Drawing.Point(213, 143);
             this.RelationbunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(5);
             this.RelationbunifuMaterialTextbox1.MaxLength = 32767;
             this.RelationbunifuMaterialTextbox1.Name = "RelationbunifuMaterialTextbox1";
@@ -246,7 +232,7 @@ namespace ManaDigitalV1.UserControls
             this.NamebunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
             this.NamebunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.Silver;
             this.NamebunifuMaterialTextbox1.LineThickness = 3;
-            this.NamebunifuMaterialTextbox1.Location = new System.Drawing.Point(216, 104);
+            this.NamebunifuMaterialTextbox1.Location = new System.Drawing.Point(213, 73);
             this.NamebunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(5);
             this.NamebunifuMaterialTextbox1.MaxLength = 32767;
             this.NamebunifuMaterialTextbox1.Name = "NamebunifuMaterialTextbox1";
@@ -260,7 +246,7 @@ namespace ManaDigitalV1.UserControls
             // 
             this.Agelabel5.AutoSize = true;
             this.Agelabel5.ForeColor = System.Drawing.Color.Silver;
-            this.Agelabel5.Location = new System.Drawing.Point(422, 387);
+            this.Agelabel5.Location = new System.Drawing.Point(419, 356);
             this.Agelabel5.Name = "Agelabel5";
             this.Agelabel5.Size = new System.Drawing.Size(23, 17);
             this.Agelabel5.TabIndex = 38;
@@ -270,7 +256,7 @@ namespace ManaDigitalV1.UserControls
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.Silver;
-            this.label6.Location = new System.Drawing.Point(414, 457);
+            this.label6.Location = new System.Drawing.Point(411, 426);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(31, 17);
             this.label6.TabIndex = 37;
@@ -280,7 +266,7 @@ namespace ManaDigitalV1.UserControls
             // 
             this.Phonelabel3.AutoSize = true;
             this.Phonelabel3.ForeColor = System.Drawing.Color.Silver;
-            this.Phonelabel3.Location = new System.Drawing.Point(385, 223);
+            this.Phonelabel3.Location = new System.Drawing.Point(382, 192);
             this.Phonelabel3.Name = "Phonelabel3";
             this.Phonelabel3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Phonelabel3.Size = new System.Drawing.Size(60, 17);
@@ -291,7 +277,7 @@ namespace ManaDigitalV1.UserControls
             // 
             this.Addresslabel4.AutoSize = true;
             this.Addresslabel4.ForeColor = System.Drawing.Color.Silver;
-            this.Addresslabel4.Location = new System.Drawing.Point(410, 293);
+            this.Addresslabel4.Location = new System.Drawing.Point(407, 262);
             this.Addresslabel4.Name = "Addresslabel4";
             this.Addresslabel4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Addresslabel4.Size = new System.Drawing.Size(35, 17);
@@ -302,7 +288,7 @@ namespace ManaDigitalV1.UserControls
             // 
             this.Relationlabel2.AutoSize = true;
             this.Relationlabel2.ForeColor = System.Drawing.Color.Silver;
-            this.Relationlabel2.Location = new System.Drawing.Point(382, 153);
+            this.Relationlabel2.Location = new System.Drawing.Point(379, 122);
             this.Relationlabel2.Name = "Relationlabel2";
             this.Relationlabel2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Relationlabel2.Size = new System.Drawing.Size(63, 17);
@@ -313,7 +299,7 @@ namespace ManaDigitalV1.UserControls
             // 
             this.Namelabel1.AutoSize = true;
             this.Namelabel1.ForeColor = System.Drawing.Color.Silver;
-            this.Namelabel1.Location = new System.Drawing.Point(355, 83);
+            this.Namelabel1.Location = new System.Drawing.Point(352, 52);
             this.Namelabel1.Name = "Namelabel1";
             this.Namelabel1.Size = new System.Drawing.Size(90, 17);
             this.Namelabel1.TabIndex = 33;
@@ -324,7 +310,7 @@ namespace ManaDigitalV1.UserControls
             this.SaveCVbutton2.FlatAppearance.BorderSize = 0;
             this.SaveCVbutton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SaveCVbutton2.ForeColor = System.Drawing.Color.Silver;
-            this.SaveCVbutton2.Location = new System.Drawing.Point(300, 594);
+            this.SaveCVbutton2.Location = new System.Drawing.Point(297, 563);
             this.SaveCVbutton2.Name = "SaveCVbutton2";
             this.SaveCVbutton2.Size = new System.Drawing.Size(121, 33);
             this.SaveCVbutton2.TabIndex = 52;
@@ -335,7 +321,7 @@ namespace ManaDigitalV1.UserControls
             // 
             this.ChooseCVbutton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ChooseCVbutton2.ForeColor = System.Drawing.Color.Silver;
-            this.ChooseCVbutton2.Location = new System.Drawing.Point(300, 551);
+            this.ChooseCVbutton2.Location = new System.Drawing.Point(297, 520);
             this.ChooseCVbutton2.Name = "ChooseCVbutton2";
             this.ChooseCVbutton2.Size = new System.Drawing.Size(121, 37);
             this.ChooseCVbutton2.TabIndex = 51;
@@ -346,7 +332,7 @@ namespace ManaDigitalV1.UserControls
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.Silver;
-            this.label1.Location = new System.Drawing.Point(379, 520);
+            this.label1.Location = new System.Drawing.Point(376, 489);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 17);
             this.label1.TabIndex = 50;
@@ -357,16 +343,32 @@ namespace ManaDigitalV1.UserControls
             this.AgenumericUpDown1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.AgenumericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.AgenumericUpDown1.ForeColor = System.Drawing.Color.Silver;
-            this.AgenumericUpDown1.Location = new System.Drawing.Point(300, 418);
+            this.AgenumericUpDown1.Location = new System.Drawing.Point(297, 387);
             this.AgenumericUpDown1.Name = "AgenumericUpDown1";
             this.AgenumericUpDown1.Size = new System.Drawing.Size(121, 18);
             this.AgenumericUpDown1.TabIndex = 53;
+            // 
+            // rightLayoutPanel1
+            // 
+            this.rightLayoutPanel1.Location = new System.Drawing.Point(836, 3);
+            this.rightLayoutPanel1.Name = "rightLayoutPanel1";
+            this.rightLayoutPanel1.Size = new System.Drawing.Size(75, 737);
+            this.rightLayoutPanel1.TabIndex = 55;
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(914, 50);
+            this.panel1.TabIndex = 54;
             // 
             // SearchUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.Controls.Add(this.rightLayoutPanel1);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.AgenumericUpDown1);
             this.Controls.Add(this.SaveCVbutton2);
             this.Controls.Add(this.ChooseCVbutton2);
@@ -387,10 +389,8 @@ namespace ManaDigitalV1.UserControls
             this.Controls.Add(this.Searchlabel1);
             this.Controls.Add(this.SearchbunifuMaterialTextbox1);
             this.Controls.Add(this.SearchlistBox1);
-            this.Controls.Add(this.RightPanel1);
-            this.Controls.Add(this.Toppanel1);
             this.Name = "SearchUserControl";
-            this.Size = new System.Drawing.Size(947, 630);
+            this.Size = new System.Drawing.Size(914, 740);
             this.Load += new System.EventHandler(this.SearchUserControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.AgenumericUpDown1)).EndInit();
             this.ResumeLayout(false);
@@ -399,9 +399,6 @@ namespace ManaDigitalV1.UserControls
         }
 
         #endregion
-
-        private System.Windows.Forms.FlowLayoutPanel RightPanel1;
-        private System.Windows.Forms.Panel Toppanel1;
         private System.Windows.Forms.Label Searchlabel1;
         private Bunifu.Framework.UI.BunifuMaterialTextbox SearchbunifuMaterialTextbox1;
         private System.Windows.Forms.ListBox SearchlistBox1;
@@ -422,5 +419,7 @@ namespace ManaDigitalV1.UserControls
         private System.Windows.Forms.Button ChooseCVbutton2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.NumericUpDown AgenumericUpDown1;
+        private System.Windows.Forms.FlowLayoutPanel rightLayoutPanel1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

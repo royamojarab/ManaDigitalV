@@ -19,8 +19,11 @@ namespace ManaDigitalV1
 
         private void Registerbutton_Click(object sender, EventArgs e)
         {
-            Slidepanel1.Top = Registerbutton.Top;
-            Slidepanel1.Height = Registerbutton.Height;
+            Userpanel.Controls.Clear();
+            Userpanel.Controls.Add(registerUserControl1);
+
+            //Slidepanel1.Top = Registerbutton.Top;
+            //Slidepanel1.Height = Registerbutton.Height;
 
         }
 
@@ -28,12 +31,18 @@ namespace ManaDigitalV1
         {
             Slidepanel1.Top = Searchbutton.Top;
             Slidepanel1.Height = Searchbutton.Height;
+            searchUserControl1.Show();
         }
 
         private void Groupsbutton_Click(object sender, EventArgs e)
         {
             Slidepanel1.Top = Groupsbutton.Top;
             Slidepanel1.Height = Groupsbutton.Height;
+        }
+
+        private void DashboardForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
