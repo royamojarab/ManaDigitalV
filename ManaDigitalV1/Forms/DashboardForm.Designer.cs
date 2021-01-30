@@ -39,6 +39,7 @@ namespace ManaDigitalV1
             this.Userpanel = new System.Windows.Forms.Panel();
             this.searchUserControl1 = new ManaDigitalV1.UserControls.SearchUserControl();
             this.registerUserControl1 = new ManaDigitalV1.UserControls.RegisterUserControl();
+            this.groupListUserControl1 = new ManaDigitalV1.UserControls.GroupListUserControl();
             this.DLeftpanel.SuspendLayout();
             this.Userpanel.SuspendLayout();
             this.SuspendLayout();
@@ -118,6 +119,7 @@ namespace ManaDigitalV1
             // 
             // Userpanel
             // 
+            this.Userpanel.Controls.Add(this.groupListUserControl1);
             this.Userpanel.Controls.Add(this.searchUserControl1);
             this.Userpanel.Controls.Add(this.registerUserControl1);
             this.Userpanel.Dock = System.Windows.Forms.DockStyle.Right;
@@ -144,6 +146,14 @@ namespace ManaDigitalV1
             this.registerUserControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.registerUserControl1.Size = new System.Drawing.Size(888, 716);
             this.registerUserControl1.TabIndex = 1;
+            // 
+            // groupListUserControl1
+            // 
+            this.groupListUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.groupListUserControl1.Location = new System.Drawing.Point(-3, 3);
+            this.groupListUserControl1.Name = "groupListUserControl1";
+            this.groupListUserControl1.Size = new System.Drawing.Size(914, 740);
+            this.groupListUserControl1.TabIndex = 3;
             // 
             // DashboardForm
             // 
@@ -177,5 +187,6 @@ namespace ManaDigitalV1
         private System.Windows.Forms.Panel Userpanel;
         private UserControls.RegisterUserControl registerUserControl1;
         private UserControls.SearchUserControl searchUserControl1;
+        private UserControls.GroupListUserControl groupListUserControl1;
     }
 }

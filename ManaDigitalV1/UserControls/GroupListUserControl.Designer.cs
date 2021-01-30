@@ -38,6 +38,7 @@ namespace ManaDigitalV1.UserControls
             this.Groupslabel1 = new System.Windows.Forms.Label();
             this.rightLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ExitGroupListbutton1
@@ -46,7 +47,7 @@ namespace ManaDigitalV1.UserControls
             this.ExitGroupListbutton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ExitGroupListbutton1.FlatAppearance.BorderSize = 0;
             this.ExitGroupListbutton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ExitGroupListbutton1.Location = new System.Drawing.Point(27, 627);
+            this.ExitGroupListbutton1.Location = new System.Drawing.Point(882, 5);
             this.ExitGroupListbutton1.Name = "ExitGroupListbutton1";
             this.ExitGroupListbutton1.Size = new System.Drawing.Size(29, 29);
             this.ExitGroupListbutton1.TabIndex = 20;
@@ -113,13 +114,14 @@ namespace ManaDigitalV1.UserControls
             // 
             // rightLayoutPanel1
             // 
-            this.rightLayoutPanel1.Location = new System.Drawing.Point(836, 3);
+            this.rightLayoutPanel1.Location = new System.Drawing.Point(836, 40);
             this.rightLayoutPanel1.Name = "rightLayoutPanel1";
-            this.rightLayoutPanel1.Size = new System.Drawing.Size(75, 737);
+            this.rightLayoutPanel1.Size = new System.Drawing.Size(75, 700);
             this.rightLayoutPanel1.TabIndex = 59;
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.ExitGroupListbutton1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(914, 50);
@@ -132,7 +134,6 @@ namespace ManaDigitalV1.UserControls
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.Controls.Add(this.rightLayoutPanel1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.ExitGroupListbutton1);
             this.Controls.Add(this.FlashLogopanel2);
             this.Controls.Add(this.GroupMemberslistBox2);
             this.Controls.Add(this.GroupslistBox1);
@@ -140,6 +141,7 @@ namespace ManaDigitalV1.UserControls
             this.Controls.Add(this.Groupslabel1);
             this.Name = "GroupListUserControl";
             this.Size = new System.Drawing.Size(914, 740);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

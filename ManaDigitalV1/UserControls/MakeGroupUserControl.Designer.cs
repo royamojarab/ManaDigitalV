@@ -46,7 +46,7 @@ namespace ManaDigitalV1.UserControls
             this.GroupListbutton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.GroupListbutton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupListbutton1.ForeColor = System.Drawing.Color.Silver;
-            this.GroupListbutton1.Location = new System.Drawing.Point(35, 567);
+            this.GroupListbutton1.Location = new System.Drawing.Point(3, 677);
             this.GroupListbutton1.Name = "GroupListbutton1";
             this.GroupListbutton1.Size = new System.Drawing.Size(115, 32);
             this.GroupListbutton1.TabIndex = 39;

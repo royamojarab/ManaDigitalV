@@ -126,7 +126,7 @@ namespace ManaDigitalV1.UserControls
             this.SaveEditbutton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.SaveEditbutton2.FlatAppearance.BorderSize = 0;
             this.SaveEditbutton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SaveEditbutton2.Location = new System.Drawing.Point(21, 618);
+            this.SaveEditbutton2.Location = new System.Drawing.Point(3, 678);
             this.SaveEditbutton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SaveEditbutton2.Name = "SaveEditbutton2";
             this.SaveEditbutton2.Size = new System.Drawing.Size(84, 31);

@@ -269,7 +269,7 @@ namespace ManaDigitalV1.UserControls
             this.Submitbutton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Submitbutton2.FlatAppearance.BorderSize = 0;
             this.Submitbutton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Submitbutton2.Location = new System.Drawing.Point(412, 497);
+            this.Submitbutton2.Location = new System.Drawing.Point(474, 626);
             this.Submitbutton2.Name = "Submitbutton2";
             this.Submitbutton2.Size = new System.Drawing.Size(92, 32);
             this.Submitbutton2.TabIndex = 19;
@@ -281,7 +281,7 @@ namespace ManaDigitalV1.UserControls
             this.Cancelbutton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Cancelbutton3.FlatAppearance.BorderSize = 0;
             this.Cancelbutton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Cancelbutton3.Location = new System.Drawing.Point(153, 497);
+            this.Cancelbutton3.Location = new System.Drawing.Point(215, 626);
             this.Cancelbutton3.Name = "Cancelbutton3";
             this.Cancelbutton3.Size = new System.Drawing.Size(91, 32);
             this.Cancelbutton3.TabIndex = 20;
