@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ManaDigitalV1
+namespace ManaDigitalV1.UserControls
 {
-    public partial class Form1 : Form
+    public partial class GroupListUserControl : UserControl
     {
-        public Form1()
+        public GroupListUserControl()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }
