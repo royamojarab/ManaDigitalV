@@ -148,7 +148,7 @@ namespace ManaDigitalV1.UserControls
             this.NamebunifuMaterialTextbox1.Name = "NamebunifuMaterialTextbox1";
             this.NamebunifuMaterialTextbox1.Size = new System.Drawing.Size(260, 33);
             this.NamebunifuMaterialTextbox1.TabIndex = 10;
-            this.NamebunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.NamebunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // RelationbunifuMaterialTextbox2
             // 
@@ -171,7 +171,7 @@ namespace ManaDigitalV1.UserControls
             this.RelationbunifuMaterialTextbox2.Name = "RelationbunifuMaterialTextbox2";
             this.RelationbunifuMaterialTextbox2.Size = new System.Drawing.Size(260, 33);
             this.RelationbunifuMaterialTextbox2.TabIndex = 11;
-            this.RelationbunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.RelationbunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // PhonebunifuMaterialTextbox3
             // 
@@ -194,7 +194,7 @@ namespace ManaDigitalV1.UserControls
             this.PhonebunifuMaterialTextbox3.Name = "PhonebunifuMaterialTextbox3";
             this.PhonebunifuMaterialTextbox3.Size = new System.Drawing.Size(260, 33);
             this.PhonebunifuMaterialTextbox3.TabIndex = 12;
-            this.PhonebunifuMaterialTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.PhonebunifuMaterialTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // AddressbunifuMaterialTextbox4
             // 
@@ -217,7 +217,7 @@ namespace ManaDigitalV1.UserControls
             this.AddressbunifuMaterialTextbox4.Name = "AddressbunifuMaterialTextbox4";
             this.AddressbunifuMaterialTextbox4.Size = new System.Drawing.Size(260, 33);
             this.AddressbunifuMaterialTextbox4.TabIndex = 13;
-            this.AddressbunifuMaterialTextbox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.AddressbunifuMaterialTextbox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // AgenumericUpDown1
             // 

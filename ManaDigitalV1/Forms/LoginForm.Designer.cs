@@ -100,7 +100,7 @@ namespace ManaDigitalV1
             this.UserbunifuMaterialTextbox1.Name = "UserbunifuMaterialTextbox1";
             this.UserbunifuMaterialTextbox1.Size = new System.Drawing.Size(226, 33);
             this.UserbunifuMaterialTextbox1.TabIndex = 3;
-            this.UserbunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.UserbunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // PassbunifuMaterialTextbox2
             // 
@@ -123,7 +123,7 @@ namespace ManaDigitalV1
             this.PassbunifuMaterialTextbox2.Name = "PassbunifuMaterialTextbox2";
             this.PassbunifuMaterialTextbox2.Size = new System.Drawing.Size(226, 33);
             this.PassbunifuMaterialTextbox2.TabIndex = 4;
-            this.PassbunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.PassbunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Loginbutton
             // 
@@ -139,6 +139,7 @@ namespace ManaDigitalV1
             this.Loginbutton.TabIndex = 5;
             this.Loginbutton.Text = "ورود";
             this.Loginbutton.UseVisualStyleBackColor = false;
+            this.Loginbutton.Click += new System.EventHandler(this.Loginbutton_Click);
             // 
             // LoginForm
             // 

@@ -174,7 +174,7 @@ namespace ManaDigitalV1.UserControls
             this.AddressbunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
             this.AddressbunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.Silver;
             this.AddressbunifuMaterialTextbox1.LineThickness = 3;
-            this.AddressbunifuMaterialTextbox1.Location = new System.Drawing.Point(216, 315);
+            this.AddressbunifuMaterialTextbox1.Location = new System.Drawing.Point(216, 314);
             this.AddressbunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(5);
             this.AddressbunifuMaterialTextbox1.MaxLength = 32767;
             this.AddressbunifuMaterialTextbox1.Name = "AddressbunifuMaterialTextbox1";
@@ -198,7 +198,7 @@ namespace ManaDigitalV1.UserControls
             this.PhonebunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
             this.PhonebunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.Silver;
             this.PhonebunifuMaterialTextbox1.LineThickness = 3;
-            this.PhonebunifuMaterialTextbox1.Location = new System.Drawing.Point(216, 257);
+            this.PhonebunifuMaterialTextbox1.Location = new System.Drawing.Point(216, 244);
             this.PhonebunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(5);
             this.PhonebunifuMaterialTextbox1.MaxLength = 32767;
             this.PhonebunifuMaterialTextbox1.Name = "PhonebunifuMaterialTextbox1";
@@ -222,7 +222,7 @@ namespace ManaDigitalV1.UserControls
             this.RelationbunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
             this.RelationbunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.Silver;
             this.RelationbunifuMaterialTextbox1.LineThickness = 3;
-            this.RelationbunifuMaterialTextbox1.Location = new System.Drawing.Point(216, 180);
+            this.RelationbunifuMaterialTextbox1.Location = new System.Drawing.Point(216, 174);
             this.RelationbunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(5);
             this.RelationbunifuMaterialTextbox1.MaxLength = 32767;
             this.RelationbunifuMaterialTextbox1.Name = "RelationbunifuMaterialTextbox1";
@@ -280,7 +280,7 @@ namespace ManaDigitalV1.UserControls
             // 
             this.Phonelabel3.AutoSize = true;
             this.Phonelabel3.ForeColor = System.Drawing.Color.Silver;
-            this.Phonelabel3.Location = new System.Drawing.Point(385, 235);
+            this.Phonelabel3.Location = new System.Drawing.Point(385, 223);
             this.Phonelabel3.Name = "Phonelabel3";
             this.Phonelabel3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Phonelabel3.Size = new System.Drawing.Size(60, 17);
@@ -302,7 +302,7 @@ namespace ManaDigitalV1.UserControls
             // 
             this.Relationlabel2.AutoSize = true;
             this.Relationlabel2.ForeColor = System.Drawing.Color.Silver;
-            this.Relationlabel2.Location = new System.Drawing.Point(382, 158);
+            this.Relationlabel2.Location = new System.Drawing.Point(382, 153);
             this.Relationlabel2.Name = "Relationlabel2";
             this.Relationlabel2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Relationlabel2.Size = new System.Drawing.Size(63, 17);
